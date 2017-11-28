@@ -4,5 +4,20 @@ body{
 }
 .bigtext{
   text-align: center;
-font-size: 1.8em;
+  font-size: 1.8em;
+}
+.git_footer{
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+}
+.git_footer img{
+  width: 20px;
+  opacity:0.2;
+}
+.git_footer img:hover{
+  opacity:1;
+}
+canvas{
+  margin-left: 10%;
 }
